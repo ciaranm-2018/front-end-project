@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+
+header {
+    margin: 0;
+}
+
+.heading{
+    margin-left: 50px;
+}
+
+#nav {
+    margin: 0;
+}
+
+#nav li {
+    padding: 0;
+    
+}
+
+
+
+.ul-menu-color-home {
+    background-color: #780EDD;
+}
+.ul-menu-color-music {
+    background-color: #0CD4E7;
+}
+
+.ul-menu-color-tours {
+    background-color: #E7910F;
+}
+
+.ul-menu-color-bookings {
+    background-color: #6CD000;
+}
+
+
+.container-fluid{
+    background-color: #ffffff;
+}
