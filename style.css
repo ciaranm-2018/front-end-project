@@ -26,6 +26,7 @@ header {
     transition: all.5s ease-in-out;
    -moz-transition: all.5s ease-in-out;
     -webkit-transition: all.5s ease-in-out;
+    -o-transition: all.5s ease-in-out;
 }
 
 .banner{
@@ -53,6 +54,7 @@ header {
     background-color: #ff00ee;
     text-align: center;
 }
+
 
 
 .menuitem {
@@ -91,3 +93,19 @@ header {
     background: rgba(0,0,0,0.1);
     height: 80px;
 }
+
+
+  
+
+
+.members{
+    height:400px;
+    background-color: #ffffff;
+}
+
+.news{
+    height:400px;
+    background-color: #780EDD;
+}
+
+
