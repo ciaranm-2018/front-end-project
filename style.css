@@ -15,10 +15,23 @@ header {
 
 #nav li {
     padding: 0;
-    
 }
 
+.logo{
+    background: url("images/thebeatles.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all.5s ease-in-out;
+   -moz-transition: all.5s ease-in-out;
+    -webkit-transition: all.5s ease-in-out;
+}
 
+.banner{
+    width: 100%;
+    max-height: 400px;
+}
 
 .ul-menu-color-home {
     background-color: #780EDD;
