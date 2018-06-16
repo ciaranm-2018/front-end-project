@@ -102,12 +102,12 @@ h3{
 
 
 .members{
-    height:800px;
+    height:1000px;
     background-color: #ffffff;
 }
 
 .news{
-    height:800px;
+    height:1000px;
     background-color: #780EDD;
 }
 
@@ -140,3 +140,22 @@ h3{
       font-size: 18px;
   }
  
+ .listen{
+     background-color: #ffffff;
+     color: #000000;
+ }
+ 
+ .playlist{
+     background-color: #ffffff;
+     margin-top: 10px;
+     margin-bottom: 10px;
+     height: 1200px;
+ }
+
+.songs{
+    padding-top: 20px
+}
+
+audio{
+    width: 50%;
+}
