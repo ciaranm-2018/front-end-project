@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-
+.fa{
+    font-size:20px;
+}
 
 header {
     margin: 0;
@@ -23,7 +25,6 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    padding-left: 50px;
     min-height: 400px;
     transition: all.5s ease-in-out;
    -moz-transition: all.5s ease-in-out;
@@ -105,6 +106,7 @@ h2{
 h3{
     font-size: 30px;
     color: #780EDD;
+    padding-top:30px;
 }
 h4{
     font-size: 15px;
@@ -133,7 +135,6 @@ h5{
  .container {
       padding: 10px 10px 10px 10px;
   }
-  
   
   
   .band {
@@ -168,8 +169,8 @@ h5{
   }
   
   .liverpool{
-      padding:40px 20px 10px 10px;
-      float:left;width:280px;height:220px;
+      padding:40px 30px 30px 20px;
+      float:left;width:300px;height:250px;
   }
  
  
@@ -177,6 +178,10 @@ h5{
      margin: 20px 20px;
      font-size: 20px;
      color:#000000;
+ }
+ 
+ .link{
+     color:#0CD4E7;
  }
  
  .video{
@@ -191,19 +196,13 @@ h5{
      padding-bottom:100px;
  }
  
- .listen{
-     background-color: #ffffff;
-     color: #000000;
- }
- 
- .playlist{
-     background-color: #ffffff;
-     margin-top: 10px;
-     margin-bottom: 10px;
-     height: 1200px;
- }
- 
 
+ .listen{
+     background-color: #f2e6ff;
+     color: #000000;
+     padding-bottom: 30px;
+ }
+ 
 .songs{
     padding-top: 20px
 }
