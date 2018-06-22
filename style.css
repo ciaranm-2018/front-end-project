@@ -62,7 +62,7 @@ header {
 }
 
 .text-center{
-    color:#ffffff;
+    color:#000000;
 }
 
 .menuitem {
@@ -102,6 +102,12 @@ header {
     height: 80px;
 }
 
+h1{
+    text-align: center;
+    color: #780EDD;
+    padding-top:20px;
+}
+
 h2{
     padding-top:20px;
     padding-bottom: 40px;
@@ -112,6 +118,7 @@ h3{
     font-size: 30px;
     color: #780EDD;
     padding-top:20px;
+    text-align: center;
 }
 h4{
     font-size: 15px;
@@ -136,7 +143,7 @@ h6{
 }
 
 .members{
-    background-color: #ffffff;
+    background-color: #F0F8FF;
     padding-bottom:50px;
 }
 
@@ -212,7 +219,7 @@ h6{
  
 
  .listen{
-     background-color: #f2e6ff;
+     background-color:#F0F8FF;
      color: #000000;
      padding-top:30px;
      padding-bottom: 30px;
@@ -220,6 +227,10 @@ h6{
  
 .songs{
     padding-top: 20px
+}
+
+.updates{
+    color:#FF0000;
 }
 
 
@@ -233,11 +244,11 @@ h6{
 }
 
 .bg-color-bookings{
-    background-color: #f2e6ff;
+    background-color:#F0F8FF ;
 }
 
-.bg-color-info{
-    background-color: #ffffff;
+.bg-color-members{
+    background-color:#F0F8FF ;
 }
 
 .bg-color-news{
@@ -279,13 +290,23 @@ audio{
   }
   
   .tour{
-      background:#f2e6ff;
+      background:#F0F8FF;
       padding-bottom:40px;
   }
+ .bg-color-tour-heading{ 
+  background-color: #F0F8FF;
+ }
  
  .uk,.sweden,.holland{
      padding-top:40px;
      padding-bottom:40px;
+ }
+ .desc{
+     font-size: 20px;
+ }
+ 
+ .dates{
+     color: #ffffff;
  }
     
 /*..............................media queries*/
