@@ -55,14 +55,35 @@ header {
     background-color: #6CD000;
 }
 
+.text-center{
+    color:#000000;
+}
+
+.bg-color-bookings{
+    background-color:#F0F8FF ;
+}
+
+.bg-color-members{
+    background-color:#F0F8FF ;
+}
+
+.bg-color-news{
+    background-color: #780EDD;
+}
+
+.bg-color-tour-heading{ 
+  background-color: #F0F8FF;
+ }
+
+.bg-color-footer{
+    background-color: #ff9cce;
+}
+
+/*.............................header*/
 
 .container-fluid{
     text-align:center;
     background:cover;
-}
-
-.text-center{
-    color:#000000;
 }
 
 .menuitem {
@@ -102,6 +123,9 @@ header {
     height: 80px;
 }
 
+
+/*..........................headings*/
+
 h1{
     text-align: center;
     color: #780EDD;
@@ -132,6 +156,9 @@ h6{
     color:#ffffff;
     font-size:32px;
 }
+
+
+/*..............................home*/
 
 .information:{
     height:2000px;
@@ -217,6 +244,7 @@ h6{
      padding-bottom:100px;
  }
  
+/*................................music*/
 
  .listen{
      background-color:#F0F8FF;
@@ -233,6 +261,8 @@ h6{
     color:#FF0000;
 }
 
+audio{
+    width: 50%;}
 
 /*.................................bookings*/
 
@@ -242,24 +272,6 @@ h6{
     margin-top: 25px;
     margin-bottom: 25px;
 }
-
-.bg-color-bookings{
-    background-color:#F0F8FF ;
-}
-
-.bg-color-members{
-    background-color:#F0F8FF ;
-}
-
-.bg-color-news{
-    background-color: #780EDD;
-}
-
-
-.bg-color-footer{
-    background-color: #ff9cce;
-}
-
 
 .center-form{
     padding-top: 10px;
@@ -275,8 +287,6 @@ button[type="submit"]{
     color:#ffffff;
 }
 
-audio{
-    width: 50%;}
     
     
 /*.............................tours*/
@@ -293,9 +303,6 @@ audio{
       background:#F0F8FF;
       padding-bottom:40px;
   }
- .bg-color-tour-heading{ 
-  background-color: #F0F8FF;
- }
  
  .uk,.sweden,.holland{
      padding-top:40px;
@@ -307,6 +314,10 @@ audio{
  
  .dates{
      color: #ffffff;
+ }
+ 
+ .list-group-item{
+     color: #696969;
  }
     
 /*..............................media queries*/
