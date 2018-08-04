@@ -1,85 +1,60 @@
 <!DOCTYPE html>
 <html>
-    
- <head>
-     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
-         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
-        <link rel="stylesheet" href="style.css" type="text/css" />
-        <meta name="viewport" content="width-device-width, initial-scale-1">
-     
-     
-     <title>Beatles Website</title>
-   
-     
- </head>   
-    
-    <body>
-    
-     
-           
 
-        <header>
-                       <div class="row">
-                           <a href="index.html">
-                               <div class="col-md-4 logo"></div>
-                                   </a>
-                           
-                           <div class="col-md-8">
-                             <img src="images/beatles.jpg" class="banner">
-                           </div>
-                           </div>
-                           
-                        <ul id="nav" class="list-inline clearfix">
-                            <li class="col-xs-6 col-sm-3 ul-menu-color-home menuitem">
-                                <a href="index.html" class="hvr-sweep-to-top"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a> 
-                            </li>
-                            <li class="col-xs-6 col-sm-3 ul-menu-color-music menuitem">
-                                <a href="music.html" class="hvr-sweep-to-top"><i class="fa fa-music" aria-hidden="true"></i><span>Music</span></a>
-                            </li>
-                            <li class="col-xs-6 col-sm-3 ul-menu-color-tours menuitem">
-                                <a href="tours.html" class="hvr-sweep-to-top"><i class="fa fa-bus" aria-hidden="true"></i><span>Tours</span></a>
-                            </li>
-                            <li class="col-xs-6 col-sm-3 ul-menu-color-bookings menuitem">
-                                <a href="bookings.html"   class="hvr-sweep-to-top"><i class="fa fa-edit" aria-hidden="true"></i><span>Bookings</span></a>
-                            </li>
-                        </ul>
-        </header>
-        
-       <section class="container-fluid">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <meta name="viewport" content="width-device-width, initial-scale-1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+        $(function() {
+            $('#header').load('reuseheader.html');
+        });
+    </script>
+
+    <title>Beatles Website</title>
+
+</head>
+
+<body>
+
+    <header>
+        <div id="header">
+        </div>
+    </header>
+
+    <section class="container-fluid">
         <div class="row bg-color-bookings">
-              <div>
-              <h3 class="bookings-heading uppercase text-center">Would you like us to perform at your special event?</h3>
-              <h5 class="uppercase text-center">Send your requests below!</h5>
-          </div> 
-          <div class="center-form">
-              <form>
-              <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
-               <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
-              <textarea rows="5" name="eventsummary" class="form-control" id="eventsummary" placeholder="Event Description" required/></textarea>
-              <button type="submit" class="btn btn-secondary center-block">Send Event Request</button>
-              </form>
-              </div>
-          </div>
-       </section>
-        
-        
-        
-        
-        <footer class="container-fluid bg-color-footer">
-           
-                    <div class="col-sm-12">
-                        <h5 class="uppercase general-sub">Our Social </h5>
-                        <ul class="list-inline social-links">
-                            <li><a target="_blank" href="https://www.facebook.com/thebeatles/"><i class="fa fa-facebook"></i></a></li>
-                            <li><a target="_blank" href="https://twitter.com/thebeatles"><i class="fa fa-twitter"></i></a></li>
-                            <li><a target="_blank" href="https://www.instagram.com/thebeatles/"><i class="fa fa-instagram"></i></a></li>
-                            <li><a target="_blank" href="https://www.youtube.com/user/thebeatles"><i class="fa fa-youtube"></i></a></li>
-                        </ul>
-                        </div>
-                    
-                </footer>
-    </body>
-    
-</html>
+            <div>
+                <h3 class="bookings-heading uppercase text-center">Would you like us to perform at your special event?</h3>
+                <h5 class="uppercase text-center">Send your requests below!</h5>
+            </div>
+            <div class="center-form">
+                <form>
+                    <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
+                    <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
+                    <textarea rows="5" name="eventsummary" class="form-control" id="eventsummary" placeholder="Event Description" required/></textarea>
+                    <button type="submit" class="btn btn-secondary center-block">Send Event Request</button>
+                </form>
+            </div>
+        </div>
+    </section>
 
+    <footer class="container-fluid bg-color-footer">
+
+        <div class="col-sm-12">
+            <h5 class="uppercase general-sub">Our Social </h5>
+            <ul class="list-inline social-links">
+                <li><a target="_blank" href="https://www.facebook.com/thebeatles/"><i class="fa fa-facebook"></i></a></li>
+                <li><a target="_blank" href="https://twitter.com/thebeatles"><i class="fa fa-twitter"></i></a></li>
+                <li><a target="_blank" href="https://www.instagram.com/thebeatles/"><i class="fa fa-instagram"></i></a></li>
+                <li><a target="_blank" href="https://www.youtube.com/user/thebeatles"><i class="fa fa-youtube"></i></a></li>
+            </ul>
+        </div>
+
+    </footer>
+</body>
+
+</html>

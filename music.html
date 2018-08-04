@@ -1,121 +1,91 @@
 <!DOCTYPE html>
 <html>
-    
- <head>
-     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
-         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
-        <link rel="stylesheet" href="style.css" type="text/css" />
-        <meta name="viewport" content="width-device-width, initial-scale-1">
-     
-     
-     <title>Beatles Website</title>
-   
-     
- </head>   
-    
-    <body>
-    
-     
-           
 
-        <header>
-                       <div class="row">
-                           <a href="index.html">
-                               <div class="col-md-4 logo"></div>
-                                   </a>
-                           
-                           <div class="col-md-8">
-                             <img src="images/beatles.jpg" class="banner">
-                           </div>
-                           </div>
-                           
-                        <ul id="nav" class="list-inline clearfix">
-                            <li class="col-xs-6 col-sm-3 ul-menu-color-home menuitem">
-                                <a href="index.html" class="hvr-sweep-to-top"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a> 
-                            </li>
-                            <li class="col-xs-6 col-sm-3 ul-menu-color-music menuitem">
-                                <a href="music.html" class="hvr-sweep-to-top"><i class="fa fa-music" aria-hidden="true"></i><span>Music</span></a>
-                            </li>
-                            <li class="col-xs-6 col-sm-3 ul-menu-color-tours menuitem">
-                                <a href="tours.html" class="hvr-sweep-to-top"><i class="fa fa-bus" aria-hidden="true"></i><span>Tours</span></a>
-                            </li>
-                            <li class="col-xs-6 col-sm-3 ul-menu-color-bookings menuitem">
-                                <a href="bookings.html"  class="hvr-sweep-to-top"><i class="fa fa-edit" aria-hidden="true"></i><span>Bookings</span></a>
-                            </li>
-                        </ul>
-        </header>
-        
-     
-          <div class="container-fluid listen">
-              <h1>Relax with some of the band's personal favourites</h1>
-              <p class="updates">Updated Regularly!</p>
- 
-  <p class="songs">*New* 1. All You Need Is Love</p>
-<audio src="music/allyouneedislove.mp3" controls>	
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <meta name="viewport" content="width-device-width, initial-scale-1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+        $(function() {
+            $('#header').load('reuseheader.html');
+        });
+    </script>
 
-</audio>
-<p class="songs">*New* 2. Come Together</p>
-<audio src="music/cometogether.mp3" controls>	
+    <title>Beatles Website</title>
 
-</audio>
-<p class="songs"><p>3. I Am The Walrus</p>
-<audio src="music/iamthewalrus.mp3" controls>	
+</head>
 
-</audio>
-<p class="songs">4. I Want To Hold Your Hand</p>
-<audio src="music/iwanttoholdyourhand.mp3" controls>	
+<body>
 
-</audio>
-<p class="songs">5. Love Me Do</p>
-<audio src="music/lovemedo.mp3" controls>	
+    <header>
+        <div id="header">
+        </div>
+    </header>
 
-</audio>
-<p class="songs">6. Hey Jude</p>
-<audio src="music/heyjude.mp3" controls>	
+    <div class="container-fluid listen">
+        <h1>Relax with some of the band's personal favourites</h1>
+        <p class="updates">Updated Regularly!</p>
 
-</audio>
-<p class="songs">7. Revolution</p>
-<audio src="music/revolution.mp3" controls>	
+        <p class="songs">*New* 1. All You Need Is Love</p>
+        <audio src="music/allyouneedislove.mp3" controls>
 
-</audio>
-<p class="songs">8. Norweigen Wood</p>
-<audio src="music/norweigenwood.mp3" controls>	
+        </audio>
+        <p class="songs">*New* 2. Come Together</p>
+        <audio src="music/cometogether.mp3" controls>
 
-</audio>
-<p class="songs">9. Let It Be</p>
-<audio src="music/letitbe.mp3" controls>	
+        </audio>
+        <p class="songs">
+            <p>3. I Am The Walrus</p>
+            <audio src="music/iamthewalrus.mp3" controls>
 
-</audio>
-<p class="songs">10. Lucy In The Sky With Diamonds</p>
-<audio src="music/lucyintheskywithdiamonds.mp3" controls>	
+            </audio>
+            <p class="songs">4. I Want To Hold Your Hand</p>
+            <audio src="music/iwanttoholdyourhand.mp3" controls>
 
-</audio>
-  
-</div>
+            </audio>
+            <p class="songs">5. Love Me Do</p>
+            <audio src="music/lovemedo.mp3" controls>
 
-    
- 
+            </audio>
+            <p class="songs">6. Hey Jude</p>
+            <audio src="music/heyjude.mp3" controls>
 
-     
-        
-        
-        
-        
-        <footer class="container-fluid bg-color-footer">
-           
-                    <div class="col-sm-12">
-                        <h5 class="uppercase general-sub">Our Social </h5>
-                        <ul class="list-inline social-links">
-                            <li><a target="_blank" href="https://www.facebook.com/thebeatles/"><i class="fa fa-facebook"></i></a></li>
-                            <li><a target="_blank" href="https://twitter.com/thebeatles"><i class="fa fa-twitter"></i></a></li>
-                            <li><a target="_blank" href="https://www.instagram.com/thebeatles/"><i class="fa fa-instagram"></i></a></li>
-                            <li><a target="_blank" href="https://www.youtube.com/user/thebeatles"><i class="fa fa-youtube"></i></a></li>
-                        </ul>
-                        </div>
-                    
-                </footer>
-    </body>
-    
+            </audio>
+            <p class="songs">7. Revolution</p>
+            <audio src="music/revolution.mp3" controls>
+
+            </audio>
+            <p class="songs">8. Norweigen Wood</p>
+            <audio src="music/norweigenwood.mp3" controls>
+
+            </audio>
+            <p class="songs">9. Let It Be</p>
+            <audio src="music/letitbe.mp3" controls>
+
+            </audio>
+            <p class="songs">10. Lucy In The Sky With Diamonds</p>
+            <audio src="music/lucyintheskywithdiamonds.mp3" controls>
+
+            </audio>
+
+    </div>
+
+    <footer class="container-fluid bg-color-footer">
+
+        <div class="col-sm-12">
+            <h5 class="uppercase general-sub">Our Social </h5>
+            <ul class="list-inline social-links">
+                <li><a target="_blank" href="https://www.facebook.com/thebeatles/"><i class="fa fa-facebook"></i></a></li>
+                <li><a target="_blank" href="https://twitter.com/thebeatles"><i class="fa fa-twitter"></i></a></li>
+                <li><a target="_blank" href="https://www.instagram.com/thebeatles/"><i class="fa fa-instagram"></i></a></li>
+                <li><a target="_blank" href="https://www.youtube.com/user/thebeatles"><i class="fa fa-youtube"></i></a></li>
+            </ul>
+        </div>
+
+    </footer>
+</body>
+
 </html>
-
