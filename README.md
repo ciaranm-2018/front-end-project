@@ -21,10 +21,10 @@ Try to mute the volume and verify that the music stops.
 
  Bookings Page:
 Go to "Bookings" page.
-Try to submit the form without submitting data in each field, verify that the 'please fill out this field' notification appears.
+Try to submit the form without entering data in each field, verify that the 'please fill out this field' notification appears.
 
  Media Queries:
-Test the site on different sixed platforms to verify responsivness.
+Test the site on different sized platforms to verify responsivness.
 
  
  -Deployment-
